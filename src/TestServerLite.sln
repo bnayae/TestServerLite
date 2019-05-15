@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bnaya.TestServerLite", "Bnaya.TestServerLite\Bnaya.TestServerLite.csproj", "{8AF0E63A-FD3C-4CD0-A77B-4576E0E44CE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2FAAE44B-2DC3-4E5E-B634-D8F869DA7021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bnaya.TestServerLite.Tests", "Tests\Bnaya.TestServerLite.Tests\Bnaya.TestServerLite.Tests.csproj", "{017C7767-BD67-4A91-AF8E-E1530FB0AEAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AF0E63A-FD3C-4CD0-A77B-4576E0E44CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF0E63A-FD3C-4CD0-A77B-4576E0E44CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF0E63A-FD3C-4CD0-A77B-4576E0E44CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF0E63A-FD3C-4CD0-A77B-4576E0E44CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017C7767-BD67-4A91-AF8E-E1530FB0AEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017C7767-BD67-4A91-AF8E-E1530FB0AEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017C7767-BD67-4A91-AF8E-E1530FB0AEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017C7767-BD67-4A91-AF8E-E1530FB0AEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{017C7767-BD67-4A91-AF8E-E1530FB0AEAF} = {2FAAE44B-2DC3-4E5E-B634-D8F869DA7021}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B520B197-B61C-4FD9-8117-0904005F7A0A}
+	EndGlobalSection
+EndGlobal
